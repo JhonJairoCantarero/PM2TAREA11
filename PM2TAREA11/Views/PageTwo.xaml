@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2TAREA11.Views.PageTwo">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 WidthRequest="250">
+            <Label Text="Resultado"
+               FontAttributes="Bold"
+               FontSize="25"
+               HorizontalTextAlignment="Center"
+               TextColor="#565168"/>
+            
+            <Label Text="{Binding resultado}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbresultado" 
+                FontAttributes="Bold"
+                FontSize="25"
+                HorizontalTextAlignment="Center"
+                TextColor="#565168"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2TAREA11.MainPage"
+             Visual="Material">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 WidthRequest="250">
+        <Label Text="Calculadora"
+               FontAttributes="Bold"
+               FontSize="25"
+               HorizontalTextAlignment="Center"
+               TextColor="#565168"/>
+        <Entry x:Name="txtnumero1"
+               Placeholder="Ingrese Primer Numero"
+               Keyboard="Numeric"
+               />
+        <Entry x:Name="txtnumero2"
+               Placeholder="Ingrese Segundo Numero"
+               Keyboard="Numeric"
+               />
+        <Button x:Name="sumar"
+                Text="SUMAR"
+                Clicked="sumar_Clicked"
+                BackgroundColor="#32666A"
+                
+                />
+        <Button x:Name="restar"
+                Text="RESTAR"
+                Clicked="restar_Clicked"
+                BackgroundColor="#32336A"
+                
+                />
+        <Button x:Name="multiplicar"
+                Text="MULTIPLICAR"
+                Clicked="multiplicar_Clicked"
+                BackgroundColor="#6A3232"
+                
+                />
+        <Button x:Name="division"
+                Text="DIVISION"
+                Clicked="division_Clicked"
+                BackgroundColor="Black"
+                />
+
+
+    </StackLayout>
+
+</ContentPage>
